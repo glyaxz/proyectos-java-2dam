@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/glyaxz/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+3304551736.index
+2432217095.index
+1865797976.index
