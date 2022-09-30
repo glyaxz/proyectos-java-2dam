@@ -1,0 +1,24 @@
+package ejerciciosT1;
+import java.io.*;
+
+/*
+ * Realiza un programa en Java que te permita modificar los datos de un departamento.
+ * El programa recibe desde la línea de comandos el número de departamento a
+ * modificar, el nuevo nombre de departamento y la nueva localidad. Si el departamento
+ * no existe visualiza un mensaje indicándolo. Visualiza también los datos antiguos del
+ * departamento y los nuevos datos.
+ */
+
+public class Ejercicio5 {
+	public static void main(String[] args){
+		File file = new File("/home/glyaxz/Escritorio/Testing/randomFile.dat");
+		try {
+			RandomAccessFile raf = new RandomAccessFile(file, "rw");
+			StringBuffer buffer = null;
+			int registro = Integer.parseInt(args[0])
+			
+		}catch(IOException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}
