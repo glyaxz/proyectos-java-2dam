@@ -1,0 +1,15 @@
+package ejerciciosT1;
+
+
+/*
+ * Realiza un programa en Java que te permita eliminar un departamento. El
+ * programa recibe desde la línea de comandos el número de departamento a eliminar.
+ * Si el departamento no existe, visualiza un mensaje indicándolo. Visualiza también el
+ * número total de departamentos que existen en el fichero
+ */
+
+public class Ejercicio6 {
+	public static void main(String[] args) {
+		//
+	}
+}
