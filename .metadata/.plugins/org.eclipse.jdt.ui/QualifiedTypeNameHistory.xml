@@ -5,6 +5,8 @@
     <fullyQualifiedTypeName name="java.io.EOFException"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
 </qualifiedTypeNameHistroy>
