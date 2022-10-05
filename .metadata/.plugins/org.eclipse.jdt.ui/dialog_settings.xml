@@ -3,6 +3,10 @@
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-18"/>
 	<item key="org.eclipse.jdt.ui.last.external.project" value="/run/user/1000/gvfs/google-drive:host=gmail.com,user=bokaxxglyaxz/0APo0h-dM-MwQUk9PVA/1Bp9XfVUNnrs_Zkymj63-Kry-zGtXpGY_/1hLg9BJRs3KsFjDNCe2tty9Q0lErKoTqF/Proyectos"/>
+	<item key="TypeHierarchyViewPart.hierarchyview" value="2"/>
+	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
+	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
+	<item key="TypeHierarchyViewPart.orientation" value="3"/>
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="NewPackageWizardPage">
@@ -65,5 +69,8 @@
 			<item key="DIALOG_Y_ORIGIN" value="20"/>
 			<item key="DIALOG_FONT_NAME" value="1|Cascadia Code|8.0|0|GTK|1|"/>
 		</section>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="3"/>
 	</section>
 </section>

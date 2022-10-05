@@ -1,9 +1,6 @@
 package ejemplosT1;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.RandomAccessFile;
-import javax.*;
+import java.io.*;
 
 /*
  * A partir del fichero de objetos Persona utilizado anteriormente, crea un documento XML

@@ -1,0 +1,32 @@
+package ejerciciosT1;
+import java.io.*;
+import org.w3c.dom.*;
+import javax.xml.parsers.*;
+import javax.xml.transform.*;
+import javax.xml.transform.dom.*;
+import javax.xml.transform.stream.*;
+
+
+public class Ejercicio8 {
+	public static void main(String[] args) {
+		try {
+			File f = new File("/home/glyaxz/Escritorio/Testing/departamentos.dat");
+			RandomAccessFile raf = new RandomAccessFile(f, "r");
+			//id->nombre->localidad->deps
+			int id, deps, position = 0;
+			char[] nombre = new char[10],
+					localidad = new char[10],
+					aux;
+			
+			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder builder = factory.newDocumentBuilder();
+			DOMImplementation implementation = builder.getDOMImplementation();
+			Document document = implementation.createDocument(null, "Departamentos", null);
+			document.setXmlVersion("1.0");
+			
+			
+		}catch (ParserConfigurationException|IOException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}
