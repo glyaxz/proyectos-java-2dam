@@ -18,7 +18,7 @@ public class Ejercicio3 {
 		try {
 			//Alumno
 			FileOutputStream fileoutAlumno = new FileOutputStream(f1, true);
-			ObjectOutputStream dataOSalumno = new ObjectOutputStream(fileoutAlumno);
+			ObjectOutputStream dataOSalumno2 = new ObjectOutputStream(fileoutAlumno);
 			
 			String[] a_nombres = {
 				"juan",
@@ -49,13 +49,13 @@ public class Ejercicio3 {
 			
 			for(int i = 0; i < a_nombres.length; i++) {
 				Alumno a_temp = new Alumno(a_nombres[i], a_apellidos[i], a_dnis[i], a_edad[i]);
-				dataOSalumno.writeObject(a_temp);
+				dataOSalumno2.writeObject(a_temp);
 				System.out.println("Añadido alumno no. " + i);
 			}
-			dataOSalumno.close();
+			dataOSalumno2.close();
 
 			
-			
+			/*
 			//Profesor
 			FileOutputStream fileoutProfesor = new FileOutputStream(f2, true);
 			ObjectOutputStream dataOSprofesor = new ObjectOutputStream(fileoutProfesor);
@@ -85,12 +85,12 @@ public class Ejercicio3 {
 					19,
 					20,
 					22
-				},
-				p_sueldo = {
-					1000,
-					1200,
-					1400,
-					1600
+				};
+				float[] p_sueldo = {
+					1000f,
+					1200f,
+					1400f,
+					1600f
 				};
 				
 				for(int i = 0; i < a_nombres.length; i++) {
@@ -115,13 +115,13 @@ public class Ejercicio3 {
 		
 		try {
 			//Alumno
-			ObjectInputStream dataISalumno = new ObjectInputStream(new FileInputStream(f1));
+			ObjectInputStream dataIS3 = new ObjectInputStream(new FileInputStream(f1));
 			
 			boolean boolWhile = true;
 			int i = 1;
 			while(boolWhile) {
 				try{
-					a1 = (Alumno) dataISalumno.readObject();
+					a1 = (Alumno) dataIS3.readObject();
 					System.out.print(i + " -> ");
 					i++;
 					System.out.printf("Alumno: Nombre y apellidos - %s %s, DNI - %s, Edad - %d %n", 
@@ -131,25 +131,30 @@ public class Ejercicio3 {
 				}
 			}
 			
-			dataISalumno.close();
-			
+			dataIS3.close();
+		/*	
 			
 			//Profesor
-			ObjectInputStream dataISprofesor = new ObjectInputStream(new FileInputStream(f2));
+			dataIS = new ObjectInputStream(new FileInputStream(f2));
 			boolean boolProf = true;
 			int j = 1;
 			while (boolProf){
-				p1 = (Profesor) dataISprofesor.readObject();
+				p1 = (Profesor) dataIS.readObject();
 				System.out.print(j + " -> ");
 				j++;
-				System.out.printf("Profesor: Nombre y apellidos - %s %s, DNI - %s, Edad - %d, Sueldo - %d %n", 
-						p1.getNombre(), p1.getApellidos(), p1.getDni(), (int)p1.getEdad(), (int)p1.getSueldo());
+				System.out.printf("Profesor: Nombre y apellidos - %s %s, DNI - %s, Edad - %d, Sueldo - %f %n", 
+						p1.getNombre(), p1.getApellidos(), p1.getDni(), p1.getEdad(), p1.getSueldo());
 			}
-			dataISprofesor.close();
+			dataIS.close();*/
+			
+			
 		}catch(FileNotFoundException e) {
 			System.out.println("FNFE");
-		}catch(ClassNotFoundException g) {
-			System.out.println("CNFE");
+		/*}catch(ClassNotFoundException g) {
+			System.out.println("CNFE");*/
 		}catch(EOFException f) {	}
+		catch(StreamCorruptedException h) {
+			//
+		}
 	}
 }

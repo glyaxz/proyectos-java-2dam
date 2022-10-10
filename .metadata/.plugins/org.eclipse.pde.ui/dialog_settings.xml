@@ -8,11 +8,11 @@
 		<item key="showExportedPackages" value="true"/>
 		<item key="showFeatures" value="true"/>
 		<section name="DialogBoundsSettings">
-			<item key="DIALOG_HEIGHT" value="500"/>
-			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_HEIGHT" value="456"/>
+			<item key="DIALOG_WIDTH" value="439"/>
 			<item key="DIALOG_X_ORIGIN" value="20"/>
 			<item key="DIALOG_Y_ORIGIN" value="20"/>
-			<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+			<item key="DIALOG_FONT_NAME" value="1|Cascadia Code|8.0|0|GTK|1|"/>
 		</section>
 	</section>
 </section>

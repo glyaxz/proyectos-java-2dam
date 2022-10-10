@@ -7,4 +7,5 @@
  */
 module Proyectos {
 	requires java.desktop;
+	requires xstream;
 }
