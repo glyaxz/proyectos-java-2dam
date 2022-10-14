@@ -11,7 +11,7 @@ import java.io.*;
 
 public class Ejercicio4 {
 	public static void main(String[] args) {
-		File f1 = new File("/home/glyaxz/Escritorio/Testing/departamentos.dat");
+		File f1 = new File("departamentos.dat");
 		try {
 			RandomAccessFile raf = new RandomAccessFile(f1, "rw");
 			int[] id = {

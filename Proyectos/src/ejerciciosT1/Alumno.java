@@ -3,6 +3,9 @@ package ejerciciosT1;
 import java.io.Serializable;
 
 public class Alumno implements Serializable{
+	private static final long serialVersionUID = 1738768253027903720L;
+
+
 	public Alumno(String n, String a, String d, int e) {
 		nombre = n;
 		apellidos = a;
@@ -37,6 +40,5 @@ public class Alumno implements Serializable{
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	
 	
 }

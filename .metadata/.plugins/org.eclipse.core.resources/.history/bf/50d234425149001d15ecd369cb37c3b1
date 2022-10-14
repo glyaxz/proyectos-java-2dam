@@ -1,0 +1,20 @@
+package ejerciciosT1;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class ListPersona{
+	private List<Alumno> list = new ArrayList<Alumno>();
+
+	public ListPersona() {
+		//
+	}
+	
+	public void add (Alumno p) {
+		list.add(p);
+	}
+	
+	public List<Alumno> getListaPersona() {
+		return list;
+	}
+}

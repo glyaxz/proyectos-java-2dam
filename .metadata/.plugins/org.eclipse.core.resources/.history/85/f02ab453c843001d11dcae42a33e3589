@@ -1,8 +1,0 @@
-package ejerciciosT1;
-import java.io.*;
-
-public class Ejercicio8 {
-	public static void main(String[] args) {
-		File f = new File("/home/glyaxz/Escritorio/Testing/departamentos.dat");
-	}
-}

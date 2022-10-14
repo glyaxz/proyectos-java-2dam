@@ -1,0 +1,26 @@
+<ListaPersonasMunicipio>
+  <DatosPersona>
+    <nombre>juan</nombre>
+    <apellidos>barrera</apellidos>
+    <dni>11111111A</dni>
+    <edad>18</edad>
+  </DatosPersona>
+  <DatosPersona>
+    <nombre>francisco</nombre>
+    <apellidos>ruiz</apellidos>
+    <dni>22222222B</dni>
+    <edad>19</edad>
+  </DatosPersona>
+  <DatosPersona>
+    <nombre>sergio</nombre>
+    <apellidos>jurado</apellidos>
+    <dni>33333333C</dni>
+    <edad>20</edad>
+  </DatosPersona>
+  <DatosPersona>
+    <nombre>javi</nombre>
+    <apellidos>garcia</apellidos>
+    <dni>44444444D</dni>
+    <edad>22</edad>
+  </DatosPersona>
+</ListaPersonasMunicipio>

@@ -4,8 +4,8 @@ import java.io.Serializable;
 
 public class Persona implements Serializable{
 	//Atributos
-	private String nombre, apellidos, dni;
-	private int edad;
+	protected String nombre, apellidos, dni;
+	protected int edad;
 	
 	public Persona(String n, String a, String d, int e) {
 		nombre = n;

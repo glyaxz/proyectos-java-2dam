@@ -13,7 +13,7 @@ import java.io.RandomAccessFile;
 
 public class Ejercicio6 {
 	public static void main(String[] args) {
-		File file = new File("/home/glyaxz/Escritorio/Testing/randomFile.dat");
+		File file = new File("randomFile.dat");
 		try {
 			RandomAccessFile raf = new RandomAccessFile(file, "rw");
 			//Orden: id->nombre->localidad->deps

@@ -11,8 +11,8 @@ import java.io.*;
 
 public class Ejercicio3 {
 	public static void main (String[] args) throws IOException {
-		File f1 = new File("/home/glyaxz/Escritorio/Testing/dbAlumno.dat");
-		File f2 = new File("/home/glyaxz/Escritorio/Testing/dbProfesor.dat");
+		File f1 = new File("dbAlumno.dat");
+		File f2 = new File("dbProfesor.dat");
 		
 		//Escribir datos
 		try {

@@ -10,7 +10,7 @@ import javax.xml.transform.stream.*;
 public class Ejercicio8 {
 	public static void main(String[] args) {
 		try {
-			File f = new File("/home/glyaxz/Escritorio/Testing/departamentos.dat");
+			File f = new File("departamentos.dat");
 			RandomAccessFile raf = new RandomAccessFile(f, "r");
 			
 			int id, deps;
@@ -61,7 +61,7 @@ public class Ejercicio8 {
 			}
 			
 			Source source = new DOMSource(document);
-			Result result = new StreamResult(new java.io.File("/home/glyaxz/Escritorio/Testing/departamentos.xml"));
+			Result result = new StreamResult(new java.io.File("departamentos.xml"));
 			Transformer transformer = TransformerFactory.newInstance().newTransformer();
 			transformer.transform(source, result);
 			

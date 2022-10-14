@@ -11,7 +11,7 @@ import java.io.*;
 
 public class creacionPersonas {
 	public static void main (String[] args) throws IOException {
-		File f1 = new File("/home/glyaxz/Escritorio/Testing/dbPersona.dat");
+		File f1 = new File("dbPersona.dat");
 
 		try {
 			//Alumno

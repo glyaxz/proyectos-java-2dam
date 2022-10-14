@@ -4,7 +4,7 @@ import java.util.List;
 
 
 public class ListPersona{
-	private List<Persona> list = new ArrayList<Persona>();
+	protected List<Persona> list = new ArrayList<Persona>();
 
 	public ListPersona() {
 		//
@@ -17,4 +17,5 @@ public class ListPersona{
 	public List<Persona> getListaPersona() {
 		return list;
 	}
+
 }

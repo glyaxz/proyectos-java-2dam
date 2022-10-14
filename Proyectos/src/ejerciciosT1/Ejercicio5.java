@@ -11,7 +11,7 @@ import java.io.*;
 
 public class Ejercicio5 {
 	public static void main(String[] args){
-		File file = new File("/home/glyaxz/Escritorio/Testing/randomFile.dat");
+		File file = new File("randomFile.dat");
 		try {
 			RandomAccessFile raf = new RandomAccessFile(file, "rw");
 			StringBuffer buffer = null;
