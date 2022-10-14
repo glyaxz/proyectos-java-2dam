@@ -55,7 +55,7 @@ public class Ejercicio3 {
 			dataOSalumno2.close();
 
 			
-			
+			/*
 			//Profesor
 			FileOutputStream fileoutProfesor = new FileOutputStream(f2, true);
 			ObjectOutputStream dataOSprofesor = new ObjectOutputStream(fileoutProfesor);
@@ -132,29 +132,28 @@ public class Ejercicio3 {
 			}
 			
 			dataIS3.close();
-		
+		/*	
 			
 			//Profesor
-			dataIS3 = new ObjectInputStream(new FileInputStream(f2));
+			dataIS = new ObjectInputStream(new FileInputStream(f2));
 			boolean boolProf = true;
 			int j = 1;
 			while (boolProf){
-				p1 = (Profesor) dataIS3.readObject();
+				p1 = (Profesor) dataIS.readObject();
 				System.out.print(j + " -> ");
 				j++;
 				System.out.printf("Profesor: Nombre y apellidos - %s %s, DNI - %s, Edad - %d, Sueldo - %f %n", 
 						p1.getNombre(), p1.getApellidos(), p1.getDni(), p1.getEdad(), p1.getSueldo());
 			}
-			dataIS3.close();
+			dataIS.close();*/
 			
 			
 		}catch(FileNotFoundException e) {
 			System.out.println("FNFE");
-		}catch(ClassNotFoundException g) {
-			System.out.println("CNFE");
-		}catch(EOFException f) {
-			//
-		}catch(StreamCorruptedException h) {
+		/*}catch(ClassNotFoundException g) {
+			System.out.println("CNFE");*/
+		}catch(EOFException f) {	}
+		catch(StreamCorruptedException h) {
 			//
 		}
 	}

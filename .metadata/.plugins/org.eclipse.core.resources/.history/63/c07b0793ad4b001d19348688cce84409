@@ -152,9 +152,8 @@ public class Ejercicio3 {
 			System.out.println("FNFE");
 		}catch(ClassNotFoundException g) {
 			System.out.println("CNFE");
-		}catch(EOFException f) {
-			//
-		}catch(StreamCorruptedException h) {
+		}catch(EOFException f) {	}
+		catch(StreamCorruptedException h) {
 			//
 		}
 	}
