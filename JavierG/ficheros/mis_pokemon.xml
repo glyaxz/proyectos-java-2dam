@@ -1,0 +1,51 @@
+<ListaPokemon>
+  <Pokemon>
+    <nombre>Pikachu</nombre>
+    <tipo>electrico</tipo>
+    <ataque>Bola voltio</ataque>
+    <vida>60</vida>
+    <id>1</id>
+  </Pokemon>
+  <Pokemon>
+    <nombre>Alomomola</nombre>
+    <tipo>agua</tipo>
+    <ataque>Hidroestallido</ataque>
+    <vida>110</vida>
+    <id>2</id>
+  </Pokemon>
+  <Pokemon>
+    <nombre>Grookey</nombre>
+    <tipo>planta</tipo>
+    <ataque>Arañazo</ataque>
+    <vida>70</vida>
+    <id>3</id>
+  </Pokemon>
+  <Pokemon>
+    <nombre>Incineroar</nombre>
+    <tipo>fuego</tipo>
+    <ataque>Lanzallamas</ataque>
+    <vida>160</vida>
+    <id>4</id>
+  </Pokemon>
+  <Pokemon>
+    <nombre>Silicobra</nombre>
+    <tipo>tierra</tipo>
+    <ataque>Ataque arena</ataque>
+    <vida>80</vida>
+    <id>5</id>
+  </Pokemon>
+  <Pokemon>
+    <nombre>Tapu Lele</nombre>
+    <tipo>psiquico</tipo>
+    <ataque>Impulso de energia</ataque>
+    <vida>170</vida>
+    <id>6</id>
+  </Pokemon>
+  <Pokemon>
+    <nombre>Melmetal</nombre>
+    <tipo>acero</tipo>
+    <ataque>Impulso pesado</ataque>
+    <vida>150</vida>
+    <id>7</id>
+  </Pokemon>
+</ListaPokemon>
