@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 4 nov 2022 18:25:13 by Hibernate Tools 5.5.9.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="Unidad2" name="com.miproyecto.hibernate.ejemplo.Ventas" optimistic-lock="none" table="ventas">
+        <id name="idVentas" type="byte">
+            <column name="idVentas"/>
+            <generator class="assigned"/>
+        </id>
+        <many-to-one class="com.miproyecto.hibernate.ejemplo.Clientes" fetch="select" name="clientes">
+            <column name="idCliente"/>
+        </many-to-one>
+        <many-to-one class="com.miproyecto.hibernate.ejemplo.Productos" fetch="select" name="productos">
+            <column name="idProducto"/>
+        </many-to-one>
+        <property name="fechaventas" type="date">
+            <column length="10" name="fechaventas"/>
+        </property>
+        <property name="cantidad" type="java.lang.Byte">
+            <column name="cantidad"/>
+        </property>
+    </class>
+</hibernate-mapping>

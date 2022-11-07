@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author glyaxz
+ *
+ */
+module Informes {
+}

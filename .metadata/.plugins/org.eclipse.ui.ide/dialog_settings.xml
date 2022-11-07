@@ -7,4 +7,9 @@
 		<item key="DIALOG_HEIGHT" value="555"/>
 		<item key="DIALOG_FONT_NAME" value="1|Cascadia Code|8.0|0|GTK|1|"/>
 	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
 </section>

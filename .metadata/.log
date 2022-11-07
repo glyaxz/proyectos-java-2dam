@@ -1,2136 +1,405 @@
-!SESSION 2022-09-16 17:00:17.748 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.jface 2 0 2022-09-16 17:00:49.995
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-16 17:00:49.996
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-16 17:00:49.996
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.970
-!MESSAGE <module:java.base> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.973
-!MESSAGE <module:java.desktop> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.975
-!MESSAGE <module:java.management> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.978
-!MESSAGE <module:java.management.rmi> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.980
-!MESSAGE <module:java.naming> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.982
-!MESSAGE <module:java.scripting> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.984
-!MESSAGE <module:java.security.sasl> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.986
-!MESSAGE <module:java.sql.rowset> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.988
-!MESSAGE <module:java.xml> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.991
-!MESSAGE <module:java.xml.crypto> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.993
-!MESSAGE <module:jdk.accessibility> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.995
-!MESSAGE <module:jdk.attach> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.997
-!MESSAGE <module:jdk.compiler> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:24.999
-!MESSAGE <module:jdk.hotspot.agent> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.001
-!MESSAGE <module:jdk.httpserver> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.003
-!MESSAGE <module:jdk.jartool> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.005
-!MESSAGE <module:jdk.jconsole> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.007
-!MESSAGE <module:jdk.jdeps> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.010
-!MESSAGE <module:jdk.jdi> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.012
-!MESSAGE <module:jdk.management> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.014
-!MESSAGE <module:jdk.naming.dns> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.016
-!MESSAGE <module:jdk.naming.rmi> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.018
-!MESSAGE <module:jdk.sctp> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.020
-!MESSAGE <module:jdk.security.auth> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.023
-!MESSAGE <module:jdk.security.jgss> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.025
-!MESSAGE <module:jdk.unsupported> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.027
-!MESSAGE <module:java.datatransfer> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.029
-!MESSAGE <module:java.instrument> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.032
-!MESSAGE <module:java.logging> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.034
-!MESSAGE <module:java.net.http> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.036
-!MESSAGE <module:java.prefs> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.038
-!MESSAGE <module:java.rmi> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.040
-!MESSAGE <module:java.sql> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.042
-!MESSAGE <module:java.compiler> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.044
-!MESSAGE <module:java.security.jgss> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.047
-!MESSAGE <module:java.smartcardio> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.049
-!MESSAGE <module:java.transaction.xa> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.051
-!MESSAGE <module:jdk.dynalink> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.053
-!MESSAGE <module:jdk.editpad> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.055
-!MESSAGE <module:jdk.internal.ed> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.057
-!MESSAGE <module:jdk.internal.le> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.060
-!MESSAGE <module:jdk.internal.opt> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.062
-!MESSAGE <module:jdk.internal.vm.ci> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.064
-!MESSAGE <module:jdk.javadoc> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.066
-!MESSAGE <module:jdk.jfr> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.068
-!MESSAGE <module:jdk.jlink> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.070
-!MESSAGE <module:jdk.jpackage> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.072
-!MESSAGE <module:jdk.jshell> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.074
-!MESSAGE <module:jdk.management.agent> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.076
-!MESSAGE <module:jdk.management.jfr> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.077
-!MESSAGE <module:jdk.net> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.079
-!MESSAGE <module:jdk.nio.mapmode> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.082
-!MESSAGE <module:jdk.random> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.083
-!MESSAGE <module:jdk.unsupported.desktop> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.085
-!MESSAGE <module:jdk.zipfs> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.087
-!MESSAGE <module:jdk.jsobject> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.089
-!MESSAGE <module:jdk.xml.dom> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.091
-!MESSAGE <module:jdk.charsets> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.093
-!MESSAGE <module:jdk.crypto.cryptoki> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.095
-!MESSAGE <module:jdk.crypto.ec> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.097
-!MESSAGE <module:jdk.internal.jvmstat> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.099
-!MESSAGE <module:jdk.jcmd> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.100
-!MESSAGE <module:jdk.jstatd> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.102
-!MESSAGE <module:jdk.localedata> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.104
-!MESSAGE <module:java.se> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.105
-!MESSAGE <module:jdk.internal.vm.compiler> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.107
-!MESSAGE <module:jdk.internal.vm.compiler.management> is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2022-09-16 17:03:25.108
-!MESSAGE <module:jdk.jdwp.agent> is not on its project's build path
-
-!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2022-09-16 17:25:33.930
-!MESSAGE Internal Error
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException(/Proyectos/src/1gUL68DEX82CiLc06P-yR0KZ3tVY0k_bZ)[368]: java.lang.Exception: Resource '/Proyectos/src/1gUL68DEX82CiLc06P-yR0KZ3tVY0k_bZ' does not exist.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:63)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:110)
-	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaDeleteProcessor.checkDirtyResources(JavaDeleteProcessor.java:345)
-	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaDeleteProcessor.checkFinalConditions(JavaDeleteProcessor.java:298)
-	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:226)
-	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:86)
-	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:122)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-09-16 17:25:33.932
-!MESSAGE Resource '/Proyectos/src/1gUL68DEX82CiLc06P-yR0KZ3tVY0k_bZ' does not exist.
+!ENTRY org.hibernate.eclipse 4 666 2022-11-04 18:13:01.714
+!MESSAGE org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
 !STACK 0
-java.lang.Exception: Resource '/Proyectos/src/1gUL68DEX82CiLc06P-yR0KZ3tVY0k_bZ' does not exist.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:63)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:110)
-	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaDeleteProcessor.checkDirtyResources(JavaDeleteProcessor.java:345)
-	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaDeleteProcessor.checkFinalConditions(JavaDeleteProcessor.java:298)
-	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:226)
-	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:86)
-	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:122)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-
-!ENTRY org.eclipse.debug.core 4 125 2022-09-16 17:47:38.009
-!MESSAGE Error logged from Debug Core: 
-!STACK 0
-java.io.IOException: Stream closed
-	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
-	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:105)
-	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
-	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-!SESSION 2022-09-20 20:04:12.307 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-09-20 20:04:35.992
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-20 20:04:35.992
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-20 20:04:35.992
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-09-20 21:29:04.571 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.core.resources 2 10035 2022-09-20 21:29:12.776
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
-
-!ENTRY org.eclipse.jface 2 0 2022-09-20 21:29:21.349
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-20 21:29:21.349
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-20 21:29:21.349
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-09-23 16:17:15.966 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-09-23 16:17:40.104
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-23 16:17:40.104
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-23 16:17:40.104
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.jdt.core 4 4 2022-09-23 17:05:34.707
-!MESSAGE Could not retrieve declared methods
-!STACK 0
-org.eclipse.core.runtime.OperationCanceledException
-	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:237)
-	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:240)
-	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:201)
-	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:92)
-	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
-	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:113)
-	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
-	at org.eclipse.jdt.internal.core.BinaryType.getElementInfo(BinaryType.java:288)
-	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.createAnswer(SearchableEnvironment.java:235)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.find(SearchableEnvironment.java:186)
-	at org.eclipse.jdt.internal.core.SearchableEnvironment.findType(SearchableEnvironment.java:515)
-	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.lambda$0(LookupEnvironment.java:237)
-	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:381)
-	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:236)
-	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:114)
-	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:249)
-	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypesFor(BinaryTypeBinding.java:1920)
-	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.availableMethods(BinaryTypeBinding.java:434)
-	at org.eclipse.jdt.core.dom.TypeBinding.getDeclaredMethods(TypeBinding.java:293)
-	at org.eclipse.jdt.internal.corext.refactoring.surround.SurroundWithTryWithResourcesRefactoringCore.findAutocloseMethod(SurroundWithTryWithResourcesRefactoringCore.java:602)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickAssistProcessor.getTryWithResourceProposals(QuickAssistProcessor.java:3201)
-	at org.eclipse.jdt.internal.ui.text.correction.LocalCorrectionsSubProcessor.getTryWithResourceProposals(LocalCorrectionsSubProcessor.java:2499)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:914)
-	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:360)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
-	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
-	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
-	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:755)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-!SESSION 2022-09-27 11:47:40.931 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-09-27 11:48:01.016
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-27 11:48:01.016
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-27 11:48:01.016
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-09-27 20:07:59.456 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-09-27 20:08:19.870
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-27 20:08:19.870
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-27 20:08:19.870
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-09-30 16:06:53.124 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-09-30 16:07:12.030
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-30 16:07:12.030
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-30 16:07:12.030
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-09-30 16:26:27.868 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.core.resources 2 10035 2022-09-30 16:26:36.899
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
-
-!ENTRY org.eclipse.jface 2 0 2022-09-30 16:26:46.647
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-30 16:26:46.647
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-30 16:26:46.647
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-09-30 16:29:27.423 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.core.resources 2 10035 2022-09-30 16:29:37.689
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
-
-!ENTRY org.eclipse.jface 2 0 2022-09-30 16:29:47.731
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-30 16:29:47.731
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-30 16:29:47.731
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-09-30 18:15:03.643 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-09-30 18:15:27.782
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-30 18:15:27.783
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-30 18:15:27.783
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-04 11:01:06.162 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-04 11:01:27.790
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-04 11:01:27.790
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-04 11:01:27.791
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-04 11:25:43.587 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.core.resources 2 10035 2022-10-04 11:25:50.153
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
-
-!ENTRY org.eclipse.jface 2 0 2022-10-04 11:26:00.287
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-04 11:26:00.287
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-04 11:26:00.287
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.ui 4 0 2022-10-04 11:39:08.476
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.getSize()" because "shell" is null
-	at org.eclipse.jface.text.contentassist.ContentAssistant$LayoutManager.layoutContextInfoPopup(ContentAssistant.java:595)
-	at org.eclipse.jface.text.contentassist.ContentAssistant$LayoutManager.layout(ContentAssistant.java:515)
-	at org.eclipse.jface.text.contentassist.ContentAssistant.layout(ContentAssistant.java:1664)
-	at org.eclipse.jface.text.contentassist.ContextInformationPopup.internalShowContextFrame(ContextInformationPopup.java:389)
-	at org.eclipse.jface.text.contentassist.ContextInformationPopup.internalShowContextInfo(ContextInformationPopup.java:280)
-	at org.eclipse.jface.text.contentassist.ContextInformationPopup.lambda$1(ContextInformationPopup.java:263)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.jface.text.contentassist.ContextInformationPopup.showContextInformation(ContextInformationPopup.java:255)
-	at org.eclipse.jface.text.contentassist.ContentAssistant.showContextInformation(ContentAssistant.java:1945)
-	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1027)
-	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:951)
-	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1398)
-	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:828)
-	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
-	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5796)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1555)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1538)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1316)
-	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6247)
-	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5931)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5796)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1555)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1538)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1577)
-	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:937)
-	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:4013)
-	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:921)
-	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2434)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6833)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6116)
-	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
-	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1552)
-	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4474)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
+	at org.hibernate.cfg.JDBCBinder.createPersistentClasses(JDBCBinder.java:199)
+	at org.hibernate.cfg.JDBCBinder.readFromDatabase(JDBCBinder.java:108)
+	at org.hibernate.tool.internal.metadata.JdbcMetadataDescriptor.createMetadata(JdbcMetadataDescriptor.java:82)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.JdbcMetadataConfiguration.readFromJDBC(JdbcMetadataConfiguration.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SESSION 2022-10-04 20:00:43.889 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-04 20:01:00.246
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-04 20:01:00.246
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-04 20:01:00.247
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.ui 4 0 2022-10-04 20:43:19.135
-!MESSAGE Unhandled event loop exception
-!STACK 0
-org.eclipse.swt.SWTException: Widget is disposed
-	at org.eclipse.swt.SWT.error(SWT.java:4918)
-	at org.eclipse.swt.SWT.error(SWT.java:4833)
-	at org.eclipse.swt.SWT.error(SWT.java:4804)
-	at org.eclipse.swt.widgets.Widget.error(Widget.java:565)
-	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:480)
-	at org.eclipse.swt.widgets.Control.redraw(Control.java:4652)
-	at org.eclipse.swt.widgets.Link.gtk_event_after(Link.java:459)
-	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2424)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6833)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6116)
-	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
-	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1552)
-	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4474)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SESSION 2022-10-05 11:58:59.294 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-05 11:59:16.609
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-05 11:59:16.610
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-05 11:59:16.610
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-05 12:06:55.508 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-05 12:07:10.118
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-05 12:07:10.118
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-05 12:07:10.118
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-07 16:09:33.424 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-07 16:09:49.637
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 16:09:49.637
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 16:09:49.637
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-10-07 16:23:05.371
-!MESSAGE Not properly disposed SWT resource
-!STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:166)
-	at org.eclipse.swt.graphics.Image.gtk_new(Image.java:1166)
-	at org.eclipse.swt.dnd.TreeTableCommon.getDragSourceImage(TreeTableCommon.java:95)
-	at org.eclipse.swt.dnd.TreeDragSourceEffect.getDragSourceImage(TreeDragSourceEffect.java:82)
-	at org.eclipse.swt.dnd.TreeDragSourceEffect.dragStart(TreeDragSourceEffect.java:77)
-	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:46)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5796)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1555)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1538)
-	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1316)
-	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:396)
-	at org.eclipse.swt.dnd.DragSource.lambda$0(DragSource.java:220)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5796)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5025)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4477)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
-	at org.eclipse.jface.window.Window.open(Window.java:799)
-	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.ConfigureBuildPathAction.run(ConfigureBuildPathAction.java:88)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5796)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5025)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4477)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SESSION 2022-10-07 16:24:35.989 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-07 16:24:50.341
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 16:24:50.341
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 16:24:50.341
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-07 16:30:16.280 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-07 16:30:30.552
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 16:30:30.552
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 16:30:30.552
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-10-07 16:31:23.804
-!MESSAGE Can't close stream
-!STACK 0
-java.nio.file.FileAlreadyExistsException: /tmp/maven-pom8030677906340792881.pom
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:94)
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
-	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
-	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
-	at java.base/java.nio.file.Files.copy(Files.java:3161)
-	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:251)
-	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
-	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.jboss.tools.hibernate.runtime.common.Util.invokeMethod(Util.java:43)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.readFromJDBC(AbstractConfigurationFacade.java:212)
+	at org.hibernate.eclipse.console.common.ConsoleExtension$2.execute(ConsoleExtension.java:308)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.buildConfiguration(ConsoleExtension.java:266)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.runExporters(ConsoleExtension.java:174)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.launchExporters(ConsoleExtension.java:110)
+	at org.hibernate.eclipse.launch.CodeGenerationLaunchDelegate.launch(CodeGenerationLaunchDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-!SESSION 2022-10-07 16:36:08.864 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-07 16:36:23.252
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 16:36:23.253
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 16:36:23.253
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-10-07 18:28:38.702
-!MESSAGE Not properly disposed SWT resource
+!SUBENTRY 1 org.hibernate.eclipse 4 666 2022-11-04 18:13:01.714
+!MESSAGE org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
 !STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Font.<init>(Font.java:77)
-	at org.eclipse.ui.texteditor.AbstractTextEditor$6.gesture(AbstractTextEditor.java:3856)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:152)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5796)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5025)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4477)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
+	at org.hibernate.cfg.JDBCBinder.createPersistentClasses(JDBCBinder.java:199)
+	at org.hibernate.cfg.JDBCBinder.readFromDatabase(JDBCBinder.java:108)
+	at org.hibernate.tool.internal.metadata.JdbcMetadataDescriptor.createMetadata(JdbcMetadataDescriptor.java:82)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.JdbcMetadataConfiguration.readFromJDBC(JdbcMetadataConfiguration.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SESSION 2022-10-07 18:30:18.839 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+	at org.jboss.tools.hibernate.runtime.common.Util.invokeMethod(Util.java:43)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.readFromJDBC(AbstractConfigurationFacade.java:212)
+	at org.hibernate.eclipse.console.common.ConsoleExtension$2.execute(ConsoleExtension.java:308)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.buildConfiguration(ConsoleExtension.java:266)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.runExporters(ConsoleExtension.java:174)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.launchExporters(ConsoleExtension.java:110)
+	at org.hibernate.eclipse.launch.CodeGenerationLaunchDelegate.launch(CodeGenerationLaunchDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.jface 2 0 2022-10-07 18:30:33.139
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 18:30:33.140
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 18:30:33.140
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-07 18:36:27.164 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-07 18:36:42.313
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 18:36:42.313
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-07 18:36:42.313
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-11 12:19:47.950 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-11 12:20:18.205
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-11 12:20:18.205
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-11 12:20:18.205
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-11 20:01:26.175 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-11 20:01:42.007
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-11 20:01:42.008
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-11 20:01:42.008
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-13 11:28:36.069 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.core.resources 2 10035 2022-10-13 11:28:42.971
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
-
-!ENTRY org.eclipse.jface 2 0 2022-10-13 11:28:52.210
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-13 11:28:52.211
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-13 11:28:52.211
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.ui.navigator.resources 4 2 2022-10-13 11:41:51.147
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator.resources".
+!ENTRY org.hibernate.eclipse 4 666 2022-11-04 18:15:17.318
+!MESSAGE org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
 !STACK 0
-java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.setLayoutDeferred(boolean)" because the return value of "org.eclipse.ui.actions.CloseResourceAction.getShell()" is null
-	at org.eclipse.ui.actions.CloseResourceAction.run(CloseResourceAction.java:202)
-	at org.eclipse.ui.navigator.resources.ProjectExplorer$1.handleMiddleClick(ProjectExplorer.java:398)
-	at org.eclipse.ui.navigator.resources.ProjectExplorer$1.lambda$0(ProjectExplorer.java:383)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.ui.navigator.resources.ProjectExplorer$1.mouseUp(ProjectExplorer.java:382)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5796)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5025)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4477)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
+	at org.hibernate.cfg.JDBCBinder.createPersistentClasses(JDBCBinder.java:199)
+	at org.hibernate.cfg.JDBCBinder.readFromDatabase(JDBCBinder.java:108)
+	at org.hibernate.tool.internal.metadata.JdbcMetadataDescriptor.createMetadata(JdbcMetadataDescriptor.java:82)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.JdbcMetadataConfiguration.readFromJDBC(JdbcMetadataConfiguration.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SESSION 2022-10-13 11:53:30.049 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.core.resources 2 10035 2022-10-13 11:53:41.924
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
-
-!ENTRY org.eclipse.jface 2 0 2022-10-13 11:53:55.983
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-13 11:53:55.983
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-13 11:53:55.983
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.ui.ide 4 4 2022-10-13 12:59:19.604
-!MESSAGE Not properly disposed SWT resource
+	at org.jboss.tools.hibernate.runtime.common.Util.invokeMethod(Util.java:43)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.readFromJDBC(AbstractConfigurationFacade.java:212)
+	at org.hibernate.eclipse.console.common.ConsoleExtension$2.execute(ConsoleExtension.java:308)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.buildConfiguration(ConsoleExtension.java:266)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.runExporters(ConsoleExtension.java:174)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.launchExporters(ConsoleExtension.java:110)
+	at org.hibernate.eclipse.launch.CodeGenerationLaunchDelegate.launch(CodeGenerationLaunchDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.hibernate.eclipse 4 666 2022-11-04 18:15:17.318
+!MESSAGE org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
 !STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
-	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at org.eclipse.wst.xml.ui.internal.ImageDescriptorRegistry.getImage(ImageDescriptorRegistry.java:36)
-	at org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart.createPages(XMLMultiPageEditorPart.java:794)
-	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:333)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
+	at org.hibernate.cfg.JDBCBinder.createPersistentClasses(JDBCBinder.java:199)
+	at org.hibernate.cfg.JDBCBinder.readFromDatabase(JDBCBinder.java:108)
+	at org.hibernate.tool.internal.metadata.JdbcMetadataDescriptor.createMetadata(JdbcMetadataDescriptor.java:82)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.JdbcMetadataConfiguration.readFromJDBC(JdbcMetadataConfiguration.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5913)
-	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
-	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
-	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
-	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
-	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
-	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
-	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
-	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:660)
-	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:624)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:787)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1261)
-	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3210)
-	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
-	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
-	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
-	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:548)
-	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:508)
-	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:367)
-	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:172)
-	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
-	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
-	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53)
-	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
-	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183)
-	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
-	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:800)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
-	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:797)
-	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1116)
-	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454)
-	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296)
-	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5796)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5025)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4477)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+	at org.jboss.tools.hibernate.runtime.common.Util.invokeMethod(Util.java:43)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.readFromJDBC(AbstractConfigurationFacade.java:212)
+	at org.hibernate.eclipse.console.common.ConsoleExtension$2.execute(ConsoleExtension.java:308)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.buildConfiguration(ConsoleExtension.java:266)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.runExporters(ConsoleExtension.java:174)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.launchExporters(ConsoleExtension.java:110)
+	at org.hibernate.eclipse.launch.CodeGenerationLaunchDelegate.launch(CodeGenerationLaunchDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.ui.ide 4 4 2022-10-13 12:59:19.648
-!MESSAGE Not properly disposed SWT resource
+!ENTRY org.hibernate.eclipse.console 4 4 2022-11-04 18:16:14.581
+!MESSAGE Problems while reading database schema
+!SUBENTRY 1 org.hibernate.eclipse.console 4 150 2022-11-04 18:16:14.582
+!MESSAGE org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
 !STACK 0
-java.lang.Error: SWT Resource was not properly disposed
-	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
-	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
-	at org.eclipse.swt.graphics.Image.<init>(Image.java:605)
-	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
-	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
-	at org.eclipse.wst.xml.ui.internal.ImageDescriptorRegistry.getImage(ImageDescriptorRegistry.java:36)
-	at org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart.createPages(XMLMultiPageEditorPart.java:795)
-	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:333)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
-	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.boot.MetadataSources.buildMetadata(MetadataSources.java:206)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.MetadataHelper.buildFromMetadataSources(MetadataHelper.java:110)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.MetadataHelper.getMetadata(MetadataHelper.java:21)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.getMetadata(ConfigurationFacadeImpl.java:115)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.buildMappings(ConfigurationFacadeImpl.java:99)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.configure(AbstractConfigurationFacade.java:142)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.configure(ConfigurationFacadeImpl.java:83)
+	at org.hibernate.console.ConfigurationFactory.loadConfigurationXML(ConfigurationFactory.java:324)
+	at org.hibernate.console.ConfigurationFactory.configureStandardConfiguration(ConfigurationFactory.java:268)
+	at org.hibernate.console.ConfigurationFactory.buildConfiguration(ConfigurationFactory.java:165)
+	at org.hibernate.console.ConfigurationFactory.createConfiguration(ConfigurationFactory.java:87)
+	at org.hibernate.console.ConsoleConfiguration$3.execute(ConsoleConfiguration.java:243)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.console.ConsoleConfiguration.buildWith(ConsoleConfiguration.java:240)
+	at org.hibernate.eclipse.console.workbench.LazyDatabaseSchemaWorkbenchAdapter.readDatabaseSchema(LazyDatabaseSchemaWorkbenchAdapter.java:118)
+	at org.hibernate.eclipse.console.workbench.LazyDatabaseSchemaWorkbenchAdapter.getChildren(LazyDatabaseSchemaWorkbenchAdapter.java:60)
+	at org.hibernate.eclipse.console.workbench.BasicWorkbenchAdapter.fetchDeferredChildren(BasicWorkbenchAdapter.java:104)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.hibernate.exception.SQLGrammarException: Error calling Driver#connect
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:118)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:41)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:58)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:409)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:275)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:249)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:453)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:98)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:73)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 31 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'pruebas/'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:38)
+	... 46 more
+!SUBENTRY 2 org.hibernate.eclipse.console 4 150 2022-11-04 18:16:14.582
+!MESSAGE org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+!STACK 0
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.boot.MetadataSources.buildMetadata(MetadataSources.java:206)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.MetadataHelper.buildFromMetadataSources(MetadataHelper.java:110)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.MetadataHelper.getMetadata(MetadataHelper.java:21)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.getMetadata(ConfigurationFacadeImpl.java:115)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.buildMappings(ConfigurationFacadeImpl.java:99)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.configure(AbstractConfigurationFacade.java:142)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.configure(ConfigurationFacadeImpl.java:83)
+	at org.hibernate.console.ConfigurationFactory.loadConfigurationXML(ConfigurationFactory.java:324)
+	at org.hibernate.console.ConfigurationFactory.configureStandardConfiguration(ConfigurationFactory.java:268)
+	at org.hibernate.console.ConfigurationFactory.buildConfiguration(ConfigurationFactory.java:165)
+	at org.hibernate.console.ConfigurationFactory.createConfiguration(ConfigurationFactory.java:87)
+	at org.hibernate.console.ConsoleConfiguration$3.execute(ConsoleConfiguration.java:243)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.console.ConsoleConfiguration.buildWith(ConsoleConfiguration.java:240)
+	at org.hibernate.eclipse.console.workbench.LazyDatabaseSchemaWorkbenchAdapter.readDatabaseSchema(LazyDatabaseSchemaWorkbenchAdapter.java:118)
+	at org.hibernate.eclipse.console.workbench.LazyDatabaseSchemaWorkbenchAdapter.getChildren(LazyDatabaseSchemaWorkbenchAdapter.java:60)
+	at org.hibernate.eclipse.console.workbench.BasicWorkbenchAdapter.fetchDeferredChildren(BasicWorkbenchAdapter.java:104)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.hibernate.exception.SQLGrammarException: Error calling Driver#connect
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:118)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:41)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:58)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:409)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:275)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:249)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:453)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:98)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:73)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 31 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'pruebas/'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:38)
+	... 46 more
+!SUBENTRY 2 org.hibernate.eclipse.console 4 150 2022-11-04 18:16:14.583
+!MESSAGE org.hibernate.exception.SQLGrammarException: Error calling Driver#connect
+!STACK 0
+org.hibernate.exception.SQLGrammarException: Error calling Driver#connect
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:118)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:41)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:58)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:409)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:275)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:249)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:453)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:98)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:73)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.boot.MetadataSources.buildMetadata(MetadataSources.java:206)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.MetadataHelper.buildFromMetadataSources(MetadataHelper.java:110)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.MetadataHelper.getMetadata(MetadataHelper.java:21)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.getMetadata(ConfigurationFacadeImpl.java:115)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.buildMappings(ConfigurationFacadeImpl.java:99)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.configure(AbstractConfigurationFacade.java:142)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.configure(ConfigurationFacadeImpl.java:83)
+	at org.hibernate.console.ConfigurationFactory.loadConfigurationXML(ConfigurationFactory.java:324)
+	at org.hibernate.console.ConfigurationFactory.configureStandardConfiguration(ConfigurationFactory.java:268)
+	at org.hibernate.console.ConfigurationFactory.buildConfiguration(ConfigurationFactory.java:165)
+	at org.hibernate.console.ConfigurationFactory.createConfiguration(ConfigurationFactory.java:87)
+	at org.hibernate.console.ConsoleConfiguration$3.execute(ConsoleConfiguration.java:243)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.console.ConsoleConfiguration.buildWith(ConsoleConfiguration.java:240)
+	at org.hibernate.eclipse.console.workbench.LazyDatabaseSchemaWorkbenchAdapter.readDatabaseSchema(LazyDatabaseSchemaWorkbenchAdapter.java:118)
+	at org.hibernate.eclipse.console.workbench.LazyDatabaseSchemaWorkbenchAdapter.getChildren(LazyDatabaseSchemaWorkbenchAdapter.java:60)
+	at org.hibernate.eclipse.console.workbench.BasicWorkbenchAdapter.fetchDeferredChildren(BasicWorkbenchAdapter.java:104)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'pruebas/'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:38)
+	... 46 more
+!SUBENTRY 2 org.hibernate.eclipse.console 4 150 2022-11-04 18:16:14.583
+!MESSAGE java.sql.SQLSyntaxErrorException: Unknown database 'pruebas/'
+!STACK 0
+java.sql.SQLSyntaxErrorException: Unknown database 'pruebas/'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:38)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:58)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:409)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:275)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:249)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:453)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:98)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:73)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:146)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:178)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:479)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:85)
+	at org.hibernate.boot.MetadataSources.buildMetadata(MetadataSources.java:206)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.MetadataHelper.buildFromMetadataSources(MetadataHelper.java:110)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.MetadataHelper.getMetadata(MetadataHelper.java:21)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.getMetadata(ConfigurationFacadeImpl.java:115)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.buildMappings(ConfigurationFacadeImpl.java:99)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.configure(AbstractConfigurationFacade.java:142)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.ConfigurationFacadeImpl.configure(ConfigurationFacadeImpl.java:83)
+	at org.hibernate.console.ConfigurationFactory.loadConfigurationXML(ConfigurationFactory.java:324)
+	at org.hibernate.console.ConfigurationFactory.configureStandardConfiguration(ConfigurationFactory.java:268)
+	at org.hibernate.console.ConfigurationFactory.buildConfiguration(ConfigurationFactory.java:165)
+	at org.hibernate.console.ConfigurationFactory.createConfiguration(ConfigurationFactory.java:87)
+	at org.hibernate.console.ConsoleConfiguration$3.execute(ConsoleConfiguration.java:243)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.console.ConsoleConfiguration.buildWith(ConsoleConfiguration.java:240)
+	at org.hibernate.eclipse.console.workbench.LazyDatabaseSchemaWorkbenchAdapter.readDatabaseSchema(LazyDatabaseSchemaWorkbenchAdapter.java:118)
+	at org.hibernate.eclipse.console.workbench.LazyDatabaseSchemaWorkbenchAdapter.getChildren(LazyDatabaseSchemaWorkbenchAdapter.java:60)
+	at org.hibernate.eclipse.console.workbench.BasicWorkbenchAdapter.fetchDeferredChildren(BasicWorkbenchAdapter.java:104)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.hibernate.eclipse 4 666 2022-11-04 18:18:15.094
+!MESSAGE org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
+!STACK 0
+org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
+	at org.hibernate.cfg.JDBCBinder.createPersistentClasses(JDBCBinder.java:199)
+	at org.hibernate.cfg.JDBCBinder.readFromDatabase(JDBCBinder.java:108)
+	at org.hibernate.tool.internal.metadata.JdbcMetadataDescriptor.createMetadata(JdbcMetadataDescriptor.java:82)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.JdbcMetadataConfiguration.readFromJDBC(JdbcMetadataConfiguration.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:995)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:960)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:403)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:330)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
-	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
-	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:995)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:105)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
-	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
-	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5913)
-	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
-	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
-	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
-	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
-	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
-	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
-	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
-	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
-	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
-	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
-	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
-	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
-	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:660)
-	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:624)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:787)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401)
-	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1261)
-	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3210)
-	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
-	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098)
-	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068)
-	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059)
-	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:548)
-	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:508)
-	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:367)
-	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:172)
-	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:288)
-	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:254)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
-	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
-	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53)
-	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215)
-	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183)
-	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
-	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:800)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
-	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:797)
-	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1116)
-	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454)
-	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:296)
-	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:331)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5796)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5025)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4477)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at org.jboss.tools.hibernate.runtime.common.Util.invokeMethod(Util.java:43)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.readFromJDBC(AbstractConfigurationFacade.java:212)
+	at org.hibernate.eclipse.console.common.ConsoleExtension$2.execute(ConsoleExtension.java:308)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.buildConfiguration(ConsoleExtension.java:266)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.runExporters(ConsoleExtension.java:174)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.launchExporters(ConsoleExtension.java:110)
+	at org.hibernate.eclipse.launch.CodeGenerationLaunchDelegate.launch(CodeGenerationLaunchDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.hibernate.eclipse 4 666 2022-11-04 18:18:15.094
+!MESSAGE org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
+!STACK 0
+org.hibernate.cfg.JDBCBinderException: Duplicate class name 'com.miproyecto.hibernate.ejemplo.Categories' generated for 'org.hibernate.mapping.Table(example_app.categories)'. Same name where generated for 'org.hibernate.mapping.Table(crudInitial.categories)'
+	at org.hibernate.cfg.JDBCBinder.createPersistentClasses(JDBCBinder.java:199)
+	at org.hibernate.cfg.JDBCBinder.readFromDatabase(JDBCBinder.java:108)
+	at org.hibernate.tool.internal.metadata.JdbcMetadataDescriptor.createMetadata(JdbcMetadataDescriptor.java:82)
+	at org.jboss.tools.hibernate.runtime.v_5_5.internal.util.JdbcMetadataConfiguration.readFromJDBC(JdbcMetadataConfiguration.java:59)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
-	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
-!SESSION 2022-10-13 13:07:36.024 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-13 13:07:52.153
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-13 13:07:52.153
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-13 13:07:52.154
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-14 12:32:24.842 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-14 12:32:40.857
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-14 12:32:40.857
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-14 12:32:40.857
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2022-10-14 15:54:55.704 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface 2 0 2022-10-14 15:55:11.916
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-14 15:55:11.916
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-14 15:55:11.917
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.ui.navigator 4 0 2022-10-14 16:08:26.682
-!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "src [in JavierG]
-  <default> (not open)
-  examen (not open)". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
-!SESSION 2022-10-14 18:36:32.248 -----------------------------------------------
-eclipse.buildId=4.25.0.I20220831-1800
-java.version=18.0.2.1
-java.vendor=Eclipse Adoptium
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.core.resources 2 10035 2022-10-14 18:36:38.462
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
-
-!ENTRY org.eclipse.jface 2 0 2022-10-14 18:36:46.852
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-14 18:36:46.852
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2022-10-14 18:36:46.852
-!MESSAGE A conflict occurred for ALT+SHIFT+R:
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
-		Rename the selected element,
-		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(ALT+SHIFT+R,
-	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
-		Rename the selected item,
-		Category(org.eclipse.ui.category.file,File,null,true),
-		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
+	at org.jboss.tools.hibernate.runtime.common.Util.invokeMethod(Util.java:43)
+	at org.jboss.tools.hibernate.runtime.common.AbstractConfigurationFacade.readFromJDBC(AbstractConfigurationFacade.java:212)
+	at org.hibernate.eclipse.console.common.ConsoleExtension$2.execute(ConsoleExtension.java:308)
+	at org.hibernate.console.execution.DefaultExecutionContext.execute(DefaultExecutionContext.java:63)
+	at org.hibernate.console.ConsoleConfiguration.execute(ConsoleConfiguration.java:107)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.buildConfiguration(ConsoleExtension.java:266)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.runExporters(ConsoleExtension.java:174)
+	at org.hibernate.eclipse.console.common.ConsoleExtension.launchExporters(ConsoleExtension.java:110)
+	at org.hibernate.eclipse.launch.CodeGenerationLaunchDelegate.launch(CodeGenerationLaunchDelegate.java:266)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

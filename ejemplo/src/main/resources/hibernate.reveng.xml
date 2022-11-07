@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+<type-mapping>
+	<sql-type jdbc-type="TINYINT" hibernate-type="byte"
+		not-null="true">
+	</sql-type>
+	<sql-type jdbc-type="VARCHAR" hibernate-type="string" length="15"
+		not-null="false">
+	</sql-type>
+	<sql-type jdbc-type="VARCHAR" hibernate-type="string" length="15"
+		not-null="false">
+	</sql-type>
+	<sql-type jdbc-type="SMALLINT" hibernate-type="short"
+		not-null="true">
+	</sql-type>
+	<sql-type jdbc-type="VARCHAR" hibernate-type="string" length="10"
+		not-null="false">
+	</sql-type>
+	<sql-type jdbc-type="TINYINT" hibernate-type="byte"
+		not-null="true">
+	</sql-type>
+	<sql-type jdbc-type="SMALLINT" hibernate-type="java.lang.Short"
+		not-null="false">
+	</sql-type>
+	<sql-type jdbc-type="DATE" hibernate-type="date" length="10"
+		not-null="false">
+	</sql-type>
+	<sql-type jdbc-type="REAL" hibernate-type="java.lang.Float"
+		precision="6" not-null="false">
+	</sql-type>
+	<sql-type jdbc-type="REAL" hibernate-type="java.lang.Float"
+		precision="6" not-null="false">
+	</sql-type>
+	<sql-type jdbc-type="VARCHAR" hibernate-type="string" length="10"
+		not-null="false">
+	</sql-type>
+</type-mapping>
+
+
+
+
+
+
+
+<table catalog="pruebas" name="departamentos">
+		<column name="dept_no"></column>
+		<column name="dnombre"></column>
+		<column name="loc"></column>
+	</table>
+	<table catalog="pruebas" name="empleados">
+		<column name="emp_no"></column>
+		<column name="fecha_alt"></column>
+		<column name="comision"></column>
+		<column name="oficio"></column>
+		<column name="dir"></column>
+		<column name="apellido"></column>
+		<column name="salario"></column>
+		<column name="dept_no"></column>
+	</table>
+</hibernate-reverse-engineering>

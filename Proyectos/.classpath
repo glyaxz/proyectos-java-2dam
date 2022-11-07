@@ -8,5 +8,8 @@
 	</classpathentry>
 	<classpathentry exported="true" kind="lib" path="/home/glyaxz/Descargas/xstream-1.4.19/lib/xstream/kxml2-min-2.3.0.jar"/>
 	<classpathentry kind="lib" path="/home/glyaxz/Descargas/xstream-1.4.19.jar"/>
+	<classpathentry kind="lib" path="/home/glyaxz/Descargas/xstream-distribution-1.4.19-bin(1).zip"/>
+	<classpathentry kind="lib" path="/home/glyaxz/Descargas/06-sqlite-jdbc-3.8.11.2.jar"/>
+	<classpathentry kind="lib" path="/home/glyaxz/Descargas/04-mysql-connector-java-8.0.26.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

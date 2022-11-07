@@ -229,4 +229,8 @@
 <uri name="http://www.w3.org/2001/XMLSchema" uri="file:///home/glyaxz/eclipse/jee-2022-09/eclipse/configuration/org.eclipse.osgi/863/0/.cp/cache/www.w3.org/2001/XMLSchema.xsd"/>
 <system systemId="http://www.w3.org/2001/xml.xsd" uri="file:///home/glyaxz/eclipse/jee-2022-09/eclipse/configuration/org.eclipse.osgi/863/0/.cp/cache/www.w3.org/2001/xml.xsd"/>
 <uri name="http://www.w3.org/2001/XInclude" uri="file:///home/glyaxz/eclipse/jee-2022-09/eclipse/configuration/org.eclipse.osgi/845/0/.cp/xslt-schemas/xinclude.xsd"/>
+<public publicId="-//Hibernate/Hibernate Mapping DTD 3.0//EN" uri="file:///home/glyaxz/eclipse/jee-2022-09/eclipse/../../../.p2/pool/plugins/org.hibernate.eclipse.mapper_5.4.18.v20220704-1525/dtd/hibernate-mapping-3.0.dtd"/>
+<public publicId="-//Hibernate/Hibernate Configuration DTD 3.0//EN" uri="file:///home/glyaxz/eclipse/jee-2022-09/eclipse/../../../.p2/pool/plugins/org.hibernate.eclipse.mapper_5.4.18.v20220704-1525/dtd/hibernate-configuration-3.0.dtd"/>
+<public publicId="-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" uri="file:///home/glyaxz/eclipse/jee-2022-09/eclipse/../../../.p2/pool/plugins/org.hibernate.eclipse.mapper_5.4.18.v20220704-1525/dtd/hibernate-reverse-engineering-3.0.dtd"/>
+<public publicId="-//Red Hat, Inc.//DTD Meta 1.0//EN" uri="file:///home/glyaxz/eclipse/jee-2022-09/eclipse/../../../.p2/pool/plugins/org.jboss.tools.common.model_3.17.400.v20220819-0934/schema/meta.dtd"/>
 </catalog>
