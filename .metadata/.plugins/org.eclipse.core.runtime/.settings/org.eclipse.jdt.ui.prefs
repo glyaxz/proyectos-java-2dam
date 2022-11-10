@@ -1,10 +1,12 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs></history>
 content_assist_number_of_computers=18
 eclipse.preferences.version=1
 markOccurrences=false
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.formatterprofiles.version=22
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="" enabled\="true" name\="sout">System.out.println();</template><template autoinsert\="true" context\="java" deleted\="false" description\="Snippet for creation database connections" enabled\="true" name\="dbc">try{\n\t\t\tClass.forName("com.mysql.cj.jdbc.Driver");\n\t\t\tConnection connect \= DriverManager.getConnection("jdbc\:mysql\://localhost/Unidad2", "accesoDatos","Usuario1.");\n\t\t\tPreparedStatement ps \= connect.prepareStatement("");\n\t\t\t\n\t\t}catch(SQLException e){\n\t\t\tSystem.out.println("SQL Error\: " + e.getMessage());\n\t\t}catch(ClassNotFoundException e) {\n\t\t\tSystem.out.println("Driver Error\: " + e.getMessage());\n\t\t}</template></templates>
+sourceHoverBackgroundColor=0,0,0
 spelling_locale_initialized=true
 typefilter_migrated_2=true
 useAnnotationsPrefPage=true

@@ -87,4 +87,11 @@
 			<item key="DIALOG_FONT_NAME" value="1|Cascadia Code|8.0|0|GTK|1|"/>
 		</section>
 	</section>
+	<section name="org.eclipse.jdt.internal.ui.preferences.EditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="591"/>
+		<item key="DIALOG_HEIGHT" value="294"/>
+		<item key="DIALOG_FONT_NAME" value="1|Cascadia Code|8.0|0|GTK|1|"/>
+	</section>
 </section>
